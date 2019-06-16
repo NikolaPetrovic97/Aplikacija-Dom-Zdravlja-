@@ -1,0 +1,18 @@
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.csprojResolveAssemblyReference.cache
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.MainForm.resources
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.csproj.GenerateResource.Cache
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.exe.config
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.exe
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.pdb
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.exe
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.pdb
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.LogIn.resources
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.RegistrujSe.resources
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\bin\Debug\System.Data.SQLite.dll
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\bin\Debug\System.Data.SQLite.xml
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Doktori.resources
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.InfoCentar.resources
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.IstorijaBolesti.resources
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.KontaktCentar.resources
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.ONama.resources
+C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Simptomi.resources
