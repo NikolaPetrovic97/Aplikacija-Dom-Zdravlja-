@@ -11,4 +11,4 @@ Projekat sadrži:
 -kontakt formu   
 -formu o domu zdravlja  
 -formu za informacije(info centar) za pacijente(korisnike)  
--bazu podataka "Baza.db"
+-bazu podataka "Dom Zdravlja.db"
