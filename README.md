@@ -1,4 +1,4 @@
-# Aplikacija "Dom Zdravlja"#
+# Aplikacija "Dom Zdravlja"
   
 Projektni zadatak iz predmeta programski jezici i prevodioci.  
 Projekat je rađen u programskom jeziku C#, u okruženju SharpDevelop.   
