@@ -24,11 +24,5 @@ namespace Dom_Zdravlja
 			
 			
 		}
-		void ONamaFormClosing(object sender, FormClosingEventArgs e)
-		{
-			MainForm main = new MainForm();
-			main.Show();
-			this.Hide();
-		}
 	}
 }

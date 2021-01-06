@@ -27,21 +27,7 @@ namespace Dom_Zdravlja
 			
 			
 		}
-		
-		void Back(object sender, EventArgs e)
-		{
-			MainForm main = new MainForm();
-			main.Show();
-			this.Hide();
-		}
-		
-		
-		void KontaktCentarFormClosing(object sender, FormClosingEventArgs e)
-		{
-			MainForm main = new MainForm();
-			main.Show();
-			this.Hide();
-		}
+
 		
 	}
 }

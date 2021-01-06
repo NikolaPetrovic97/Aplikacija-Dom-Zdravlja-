@@ -32,7 +32,7 @@ namespace Dom_Zdravlja
 			using(SQLiteConnection konekcija=new SQLiteConnection("Data Source=Baza.db; Version=3;"))
 			{
 				konekcija.Open();
-				string sql="select Ime, Prezime, IstorijaBolesti from Korisnici WHERE BrojKartona= 'IT-02-29/2016'";
+				string sql="select Ime, Prezime, IstorijaBolesti from Pacijenti WHERE BrojKartona= 'IT-02-29/2016' or BrojKartona= '12345'";
 				using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 				{
 					using(SQLiteDataReader reader=komanda.ExecuteReader())

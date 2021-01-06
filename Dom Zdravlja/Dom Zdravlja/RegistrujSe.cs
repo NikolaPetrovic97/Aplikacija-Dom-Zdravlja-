@@ -56,15 +56,15 @@ namespace Dom_Zdravlja
 				{
 					konekcija.Open();
 					string sql="insert into Korisnici(Ime, Prezime, JMBG, BrojLicneKarte, BrojZdravstveneKnjizice, DatumRodjenja, MestoRodjenja, Drzavljanstvo, NacionalnaPripadnost, Adresa, BrojTelefona, Email, Pol, Lozinka)" +
-					"values('" + this.txt_Ime.Text +  this.txt_Prezime.Text + this.txt_JMBG.Text + this.txt_BrojLicneKarte.Text + this.txt_BrojZdravstveneKnjizice.Text + this.dateTimePicker1.Text
-					+ this.txt_MestoRodjenja.Text +  this.txt_Drzavljanstvo.Text + this.txt_NacionalnaPripadnost.Text + this.txt_Adresa.Text + this.txt_BrojTelefona.Text + this.txt_Email.Text + this.txt_Pol.Text + this.txt_Lozinka.Text + "')";
+					" values('"+ this.txt_Ime.Text +"', '"+ this.txt_Prezime.Text +"', '"+ this.txt_JMBG.Text +"', '"+ this.txt_BrojLicneKarte.Text +"', '"+ this.txt_BrojZdravstveneKnjizice.Text +"', '"+ this.dateTimePicker1.Text
+					+"', '"+ this.txt_MestoRodjenja.Text +"',  '"+ this.txt_Drzavljanstvo.Text +"',  '"+ this.txt_NacionalnaPripadnost.Text +"',  '"+ this.txt_Adresa.Text +"', '"+ this.txt_BrojTelefona.Text +"',  '"+ this.txt_Email.Text +"', '"+ this.txt_Pol.Text +"', '"+ this.txt_Lozinka.Text + "');";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 							komanda.ExecuteNonQuery();
 					}
 				}
 			}
-			catch(Exception error)
+			catch(Exception)
 			{
 				
 			}

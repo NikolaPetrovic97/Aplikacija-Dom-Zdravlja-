@@ -62,7 +62,6 @@ namespace Dom_Zdravlja
 			this.Name = "ONama";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Dom Zdravlja";
-			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ONamaFormClosing);
 			this.ResumeLayout(false);
 
 		}

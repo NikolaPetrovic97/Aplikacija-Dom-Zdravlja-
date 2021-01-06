@@ -17,7 +17,6 @@ namespace Dom_Zdravlja
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Label label_Dom_Zdravlja;
 		private System.Windows.Forms.Label lbl_Kontakt;
-		private System.Windows.Forms.Button button_Back;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -44,7 +43,6 @@ namespace Dom_Zdravlja
 			this.label_Dom_Zdravlja = new System.Windows.Forms.Label();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.lbl_Kontakt = new System.Windows.Forms.Label();
-			this.button_Back = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -78,23 +76,12 @@ namespace Dom_Zdravlja
 			this.lbl_Kontakt.TabIndex = 32;
 			this.lbl_Kontakt.Text = resources.GetString("lbl_Kontakt.Text");
 			// 
-			// button_Back
-			// 
-			this.button_Back.Image = ((System.Drawing.Image)(resources.GetObject("button_Back.Image")));
-			this.button_Back.Location = new System.Drawing.Point(41, 413);
-			this.button_Back.Name = "button_Back";
-			this.button_Back.Size = new System.Drawing.Size(83, 82);
-			this.button_Back.TabIndex = 33;
-			this.button_Back.UseVisualStyleBackColor = true;
-			this.button_Back.Click += new System.EventHandler(this.Back);
-			// 
 			// KontaktCentar
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.RoyalBlue;
 			this.ClientSize = new System.Drawing.Size(1046, 507);
-			this.Controls.Add(this.button_Back);
 			this.Controls.Add(this.lbl_Kontakt);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.label_Dom_Zdravlja);
@@ -102,7 +89,6 @@ namespace Dom_Zdravlja
 			this.Name = "KontaktCentar";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Dom Zdravlja";
-			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.KontaktCentarFormClosing);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 

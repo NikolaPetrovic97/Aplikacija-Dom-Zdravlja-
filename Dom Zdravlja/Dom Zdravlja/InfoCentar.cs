@@ -24,12 +24,7 @@ namespace Dom_Zdravlja
 			
 			
 		}
-		void InfoCentarFormClosing(object sender, FormClosingEventArgs e)
-		{	
-			MainForm main = new MainForm();
-			main.Show();
-			this.Hide();
-		}
+		
 		
 	}
 }

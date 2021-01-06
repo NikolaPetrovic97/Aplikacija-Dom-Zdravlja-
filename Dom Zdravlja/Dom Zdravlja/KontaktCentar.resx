@@ -1430,49 +1430,6 @@ Fax: 026/516-504
 E-mail: domzdravljavelikaplana123@gmail.com
 Radno vreme: 07:00 - 20:00</value>
   </data>
-  <data name="button_Back.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        AElFTkSuQmCC
-</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAYAAAAAAAEAIAAMVgAAZgAAAEBAAAABACAAKEIAAHJWAAAwMAAAAQAgAKglAACamAAAICAAAAEA

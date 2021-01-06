@@ -26,19 +26,18 @@ namespace Dom_Zdravlja
 			InitializeComponent();
 			
 			
-			
 		}
 		
 		void Pregledao()
 		{
 			Random r=new Random();
-			int rnd=r.Next(1, 53);
+			int rnd=r.Next(1, 52);
 			using(SQLiteConnection konekcija=new SQLiteConnection("Data Source=Baza.db; Version=3;"))
 			{
 				konekcija.Open();
 				if(rnd==1)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='1'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=1";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -48,6 +47,7 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
+			               	  label6.Text=DateTime.Now.ToString();
 			               	  
 	            			}
 	            			
@@ -55,9 +55,11 @@ namespace Dom_Zdravlja
 						}
 					}
 				}
+				
+				
 				if(rnd==2)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='2'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=2";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -67,16 +69,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==3)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='3'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=3";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -86,16 +90,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==4)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='4'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=4";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -105,16 +111,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==5)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='5'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=5";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -124,16 +132,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==6)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='6'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=6";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -143,16 +153,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==7)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='7'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=7";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -162,34 +174,39 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
-	            			}
-	            			
-				
-						}
-					}
-				}if(rnd==8)
-				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='8'";
-					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
-					{
-						using(SQLiteDataReader reader = komanda.ExecuteReader())
-	            		{
-	            			if (reader.HasRows)
-	            			{
-			              	  DataTable dt = new DataTable();
-			              	  dt.Load(reader);
-			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
+				if(rnd==8)
+				{
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=8";
+					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
+					{
+						using(SQLiteDataReader reader = komanda.ExecuteReader())
+	            		{
+	            			if (reader.HasRows)
+	            			{
+			              	  DataTable dt = new DataTable();
+			              	  dt.Load(reader);
+			               	  dataSql2.DataSource = dt;
+			               	  label6.Text=DateTime.Now.ToString();
+	            			}
+	            			
+				
+						}
+					}
+				}
+				
+				
 				if(rnd==9)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='9'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=9";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -199,34 +216,39 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
-	            			}
-	            			
-				
-						}
-					}
-				}if(rnd==10)
-				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='10'";
-					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
-					{
-						using(SQLiteDataReader reader = komanda.ExecuteReader())
-	            		{
-	            			if (reader.HasRows)
-	            			{
-			              	  DataTable dt = new DataTable();
-			              	  dt.Load(reader);
-			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
+				if(rnd==10)
+				{
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=10";
+					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
+					{
+						using(SQLiteDataReader reader = komanda.ExecuteReader())
+	            		{
+	            			if (reader.HasRows)
+	            			{
+			              	  DataTable dt = new DataTable();
+			              	  dt.Load(reader);
+			               	  dataSql2.DataSource = dt;
+			               	  label6.Text=DateTime.Now.ToString();
+	            			}
+	            			
+				
+						}
+					}
+				}
+				
+				
 				if(rnd==11)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='11'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=11";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -236,16 +258,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==12)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='12'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=12";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -255,16 +279,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==13)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='13'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=13";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -274,16 +300,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==14)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='14'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=14";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -293,16 +321,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==15)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='15'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=15";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -312,16 +342,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==16)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='16'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=16";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -331,16 +363,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==17)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='17'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=17";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -350,16 +384,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==18)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='18'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=18";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -369,16 +405,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==19)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='19'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=19";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -388,16 +426,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==20)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='20'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=20";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -407,16 +447,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==21)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='21'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=21";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -426,16 +468,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==22)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='22'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=22";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -445,16 +489,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==23)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='23'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=23";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -464,16 +510,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==24)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='24'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=24";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -483,16 +531,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==25)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='25'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=25";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -502,16 +552,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==26)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='26'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=26";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -521,16 +573,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==27)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='27'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=27";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -540,16 +594,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==28)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='28'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=28";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -559,16 +615,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==29)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='29'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=29";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -578,16 +636,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==30)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='3='";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=30";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -597,16 +657,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==31)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='31'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=31";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -616,16 +678,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==32)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='32'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=32";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -635,16 +699,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==33)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='33'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=33";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -654,16 +720,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==34)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='34'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=34";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -673,16 +741,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==35)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='35'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=35";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -692,16 +762,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==36)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='36'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=36";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -711,16 +783,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==37)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='37'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=37";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -730,16 +804,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==38)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='38'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=38";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -749,16 +825,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==39)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='39'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=39";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -768,16 +846,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==40)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='40'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=40";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -787,16 +867,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==41)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='41'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=41";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -806,16 +888,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==42)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='42'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=42";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -825,16 +909,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==43)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='43'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=43";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -844,16 +930,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==44)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='44'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=44";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -863,16 +951,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==45)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='45'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=45";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -882,16 +972,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==46)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='46'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=46";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -901,16 +993,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==47)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='47'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=47";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -920,16 +1014,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==48)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='48'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=48";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -939,16 +1035,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==49)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='49'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=49";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -958,16 +1056,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==50)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='50'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=50";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -977,16 +1077,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==51)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='51'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=51";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -996,16 +1098,18 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
+				
+				
 				if(rnd==52)
 				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='52'";
+					string sql="select DR, Ime, Prezime from Doktori WHERE ID=52";
 					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
 					{
 						using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -1015,39 +1119,17 @@ namespace Dom_Zdravlja
 			              	  DataTable dt = new DataTable();
 			              	  dt.Load(reader);
 			               	  dataSql2.DataSource = dt;
-			               	  
+			               	  label6.Text=DateTime.Now.ToString();
 	            			}
 	            			
 				
 						}
 					}
 				}
-				if(rnd==53)
-				{
-					string sql="select DR, Ime, Prezime from Doktori WHERE ID='53'";
-					using(SQLiteCommand komanda=new SQLiteCommand(sql, konekcija))
-					{
-						using(SQLiteDataReader reader = komanda.ExecuteReader())
-	            		{
-	            			if (reader.HasRows)
-	            			{
-			              	  DataTable dt = new DataTable();
-			              	  dt.Load(reader);
-			               	  dataSql2.DataSource = dt;
-			               	  
-	            			}
-	            			
-				
-						}
-					}
-				}
-				
-				
-				
-				
 			}
-			
 		}
+			
+		
 		
 		
 		void Posalji(object sender, EventArgs e)

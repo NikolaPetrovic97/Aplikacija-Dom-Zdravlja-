@@ -29,7 +29,7 @@ namespace Dom_Zdravlja
 			
 		}
 		
-		void Provera_Korisnika(String BrojKartona, String Lozinka)
+		void ProveraKorisnika(String BrojKartona, String Lozinka)
 		{
 			using(SQLiteConnection konekcija = new SQLiteConnection("Data Source=Baza.db; Version=3;"))
 			{
@@ -37,7 +37,7 @@ namespace Dom_Zdravlja
             
 	            int broj_korisnika = 0;
  
-	            string sql = "select Brojkartona, Lozinka from Korisnici WHERE BrojKartona= '" + BrojKartona + "'";
+	            string sql = "select Brojkartona, Lozinka from Pacijenti WHERE BrojKartona= '" + BrojKartona + "'";
 	            using(SQLiteCommand komanda = new SQLiteCommand(sql, konekcija))
 	            {
 	            	using(SQLiteDataReader reader = komanda.ExecuteReader())
@@ -71,7 +71,7 @@ namespace Dom_Zdravlja
 		void Log_In(object sender, EventArgs e)
 		{
 			
-			Provera_Korisnika(txt_BrojKartona.Text, txt_Lozinka.Text);
+			ProveraKorisnika(txt_BrojKartona.Text, txt_Lozinka.Text);
 			
 		}
 						
@@ -92,7 +92,6 @@ namespace Dom_Zdravlja
 			MessageBoxButtons buttons=MessageBoxButtons.YesNo;
 			DialogResult dialog;
 			dialog=MessageBox.Show(poruka, caption, buttons);
-			
 			if(dialog==DialogResult.Yes)
 			{
 				Application.Exit();	

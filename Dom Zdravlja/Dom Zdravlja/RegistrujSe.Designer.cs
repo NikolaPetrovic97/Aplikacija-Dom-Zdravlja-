@@ -360,7 +360,7 @@ namespace Dom_Zdravlja
 			this.txt_Lozinka.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txt_Lozinka.Location = new System.Drawing.Point(223, 603);
 			this.txt_Lozinka.Name = "txt_Lozinka";
-			this.txt_Lozinka.PasswordChar = '#';
+			this.txt_Lozinka.PasswordChar = '*';
 			this.txt_Lozinka.Size = new System.Drawing.Size(203, 29);
 			this.txt_Lozinka.TabIndex = 14;
 			// 

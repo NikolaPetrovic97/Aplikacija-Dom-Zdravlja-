@@ -24,6 +24,8 @@ namespace Dom_Zdravlja
 			
 			
 		}
+		
+		
 		void Simptomi(object sender, EventArgs e)
 		{
 			Button button_Simptomi = (Button) this.Controls ["Simptomi"];
@@ -31,6 +33,8 @@ namespace Dom_Zdravlja
 			simptomi.Show();
 			this.Hide();
 		}
+		
+		
 		void IstorijaBolesti(object sender, EventArgs e)
 		{
 			Button button_IstorijaBolesti = (Button) this.Controls ["IstorijaBolesti"];
@@ -38,6 +42,8 @@ namespace Dom_Zdravlja
 			istorija_bolesti.Show();
 			this.Hide();
 		}
+		
+		
 		void Doktori(object sender, EventArgs e)
 		{
 			Button button_Doktori = (Button) this.Controls ["Doktori"];
@@ -50,35 +56,71 @@ namespace Dom_Zdravlja
 			Button button_KontaktCentar = (Button) this.Controls ["KontaktCentar"];
 			KontaktCentar kontakt_centar = new KontaktCentar();
 			kontakt_centar.Show();
-			this.Hide();
 		}
+		
+		
 		void ONama(object sender, EventArgs e)
 		{
 			Button button_ONama = (Button) this.Controls ["ONama"];
 			ONama o_nama = new ONama();
 			o_nama.Show();
-			this.Hide();
 		}
+		
+		
 		void InfoCentar(object sender, EventArgs e)
 		{
 			Button button_InfoCentar = (Button) this.Controls ["InfoCentar"];
 			InfoCentar info_centar = new InfoCentar();
 			info_centar.Show();
+		}
+		
+		
+		void DezurniDoktor(object sender, EventArgs e)
+		{
+			Button button_DezurniDoktor = (Button) this.Controls ["DezurniDoktor"];
+			DezurniDoktor dezurni_doktor = new DezurniDoktor();
+			dezurni_doktor.Show();
 			this.Hide();
 		}
+		
+		
+		void Statistika(object sender, EventArgs e)
+		{
+			Button button_Statistika = (Button) this.Controls ["Statistika"];
+			Statistika statistika = new Statistika();
+			statistika.Show();
+			this.Hide();
+		}
+		
+		
+		void Button_ZakaziPregledClick(object sender, EventArgs e)
+		{
+			Button button_ZakaziPregled = (Button) this.Controls ["ZakaziPregled"];
+			ZakaziPregled zakazi_pregled = new ZakaziPregled();
+			zakazi_pregled.Show();
+			this.Hide();
+		}
+		
+		
 		 public void Odjava(object sender, EventArgs e)
 		{
 			Button button_Odjava = (Button) this.Controls ["LogIn"];
 			LogIn log_in = new LogIn();
 			log_in.Show();
 			this.Hide();
+			
 		}
+		 
+		 
 		void MainFormFormClosing(object sender, FormClosingEventArgs e)
 		{
 			LogIn log_in = new LogIn();
 			log_in.Show();
 			this.Hide();
 		}
+		
+		
+		
 		
 		
 	}

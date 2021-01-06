@@ -40,6 +40,8 @@ namespace Dom_Zdravlja
 		private System.Windows.Forms.DataGridView dataSql2;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.Label label6;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -89,6 +91,8 @@ namespace Dom_Zdravlja
 			this.dataSql2 = new System.Windows.Forms.DataGridView();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
+			this.label6 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.dataSql)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.dataSql2)).BeginInit();
 			this.SuspendLayout();
@@ -102,7 +106,7 @@ namespace Dom_Zdravlja
 			this.label1.Location = new System.Drawing.Point(0, 0);
 			this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(815, 65);
+			this.label1.Size = new System.Drawing.Size(828, 65);
 			this.label1.TabIndex = 27;
 			this.label1.Text = "Dom Zdravlja Velika Plana";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -110,7 +114,7 @@ namespace Dom_Zdravlja
 			// checkBox1
 			// 
 			this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox1.Location = new System.Drawing.Point(16, 101);
+			this.checkBox1.Location = new System.Drawing.Point(9, 101);
 			this.checkBox1.Name = "checkBox1";
 			this.checkBox1.Size = new System.Drawing.Size(104, 37);
 			this.checkBox1.TabIndex = 1;
@@ -121,7 +125,7 @@ namespace Dom_Zdravlja
 			// checkBox2
 			// 
 			this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox2.Location = new System.Drawing.Point(125, 104);
+			this.checkBox2.Location = new System.Drawing.Point(118, 104);
 			this.checkBox2.Name = "checkBox2";
 			this.checkBox2.Size = new System.Drawing.Size(104, 33);
 			this.checkBox2.TabIndex = 2;
@@ -132,7 +136,7 @@ namespace Dom_Zdravlja
 			// checkBox3
 			// 
 			this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox3.Location = new System.Drawing.Point(244, 108);
+			this.checkBox3.Location = new System.Drawing.Point(241, 108);
 			this.checkBox3.Name = "checkBox3";
 			this.checkBox3.Size = new System.Drawing.Size(151, 25);
 			this.checkBox3.TabIndex = 3;
@@ -143,7 +147,7 @@ namespace Dom_Zdravlja
 			// checkBox4
 			// 
 			this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox4.Location = new System.Drawing.Point(401, 108);
+			this.checkBox4.Location = new System.Drawing.Point(387, 108);
 			this.checkBox4.Name = "checkBox4";
 			this.checkBox4.Size = new System.Drawing.Size(104, 33);
 			this.checkBox4.TabIndex = 4;
@@ -154,7 +158,7 @@ namespace Dom_Zdravlja
 			// checkBox5
 			// 
 			this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox5.Location = new System.Drawing.Point(518, 105);
+			this.checkBox5.Location = new System.Drawing.Point(537, 105);
 			this.checkBox5.Name = "checkBox5";
 			this.checkBox5.Size = new System.Drawing.Size(122, 37);
 			this.checkBox5.TabIndex = 5;
@@ -165,7 +169,7 @@ namespace Dom_Zdravlja
 			// checkBox6
 			// 
 			this.checkBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox6.Location = new System.Drawing.Point(651, 106);
+			this.checkBox6.Location = new System.Drawing.Point(667, 106);
 			this.checkBox6.Name = "checkBox6";
 			this.checkBox6.Size = new System.Drawing.Size(124, 32);
 			this.checkBox6.TabIndex = 6;
@@ -176,7 +180,7 @@ namespace Dom_Zdravlja
 			// checkBox7
 			// 
 			this.checkBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox7.Location = new System.Drawing.Point(12, 143);
+			this.checkBox7.Location = new System.Drawing.Point(9, 143);
 			this.checkBox7.Name = "checkBox7";
 			this.checkBox7.Size = new System.Drawing.Size(104, 24);
 			this.checkBox7.TabIndex = 7;
@@ -187,7 +191,7 @@ namespace Dom_Zdravlja
 			// button_Posalji
 			// 
 			this.button_Posalji.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button_Posalji.Location = new System.Drawing.Point(347, 522);
+			this.button_Posalji.Location = new System.Drawing.Point(339, 594);
 			this.button_Posalji.Name = "button_Posalji";
 			this.button_Posalji.Size = new System.Drawing.Size(104, 38);
 			this.button_Posalji.TabIndex = 19;
@@ -198,7 +202,7 @@ namespace Dom_Zdravlja
 			// checkBox8
 			// 
 			this.checkBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox8.Location = new System.Drawing.Point(117, 137);
+			this.checkBox8.Location = new System.Drawing.Point(118, 141);
 			this.checkBox8.Name = "checkBox8";
 			this.checkBox8.Size = new System.Drawing.Size(121, 30);
 			this.checkBox8.TabIndex = 8;
@@ -209,7 +213,7 @@ namespace Dom_Zdravlja
 			// checkBox9
 			// 
 			this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox9.Location = new System.Drawing.Point(244, 143);
+			this.checkBox9.Location = new System.Drawing.Point(242, 143);
 			this.checkBox9.Name = "checkBox9";
 			this.checkBox9.Size = new System.Drawing.Size(134, 30);
 			this.checkBox9.TabIndex = 9;
@@ -221,7 +225,7 @@ namespace Dom_Zdravlja
 			// 
 			this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
 			this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.label2.Location = new System.Drawing.Point(716, 0);
+			this.label2.Location = new System.Drawing.Point(727, 0);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(101, 73);
 			this.label2.TabIndex = 39;
@@ -229,7 +233,7 @@ namespace Dom_Zdravlja
 			// checkBox14
 			// 
 			this.checkBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox14.Location = new System.Drawing.Point(121, 174);
+			this.checkBox14.Location = new System.Drawing.Point(120, 174);
 			this.checkBox14.Name = "checkBox14";
 			this.checkBox14.Size = new System.Drawing.Size(129, 37);
 			this.checkBox14.TabIndex = 14;
@@ -240,7 +244,7 @@ namespace Dom_Zdravlja
 			// checkBox13
 			// 
 			this.checkBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox13.Location = new System.Drawing.Point(8, 175);
+			this.checkBox13.Location = new System.Drawing.Point(9, 175);
 			this.checkBox13.Name = "checkBox13";
 			this.checkBox13.Size = new System.Drawing.Size(129, 37);
 			this.checkBox13.TabIndex = 13;
@@ -262,7 +266,7 @@ namespace Dom_Zdravlja
 			// checkBox15
 			// 
 			this.checkBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox15.Location = new System.Drawing.Point(247, 176);
+			this.checkBox15.Location = new System.Drawing.Point(242, 176);
 			this.checkBox15.Name = "checkBox15";
 			this.checkBox15.Size = new System.Drawing.Size(129, 37);
 			this.checkBox15.TabIndex = 15;
@@ -273,7 +277,7 @@ namespace Dom_Zdravlja
 			// checkBox16
 			// 
 			this.checkBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox16.Location = new System.Drawing.Point(367, 182);
+			this.checkBox16.Location = new System.Drawing.Point(386, 182);
 			this.checkBox16.Name = "checkBox16";
 			this.checkBox16.Size = new System.Drawing.Size(167, 37);
 			this.checkBox16.TabIndex = 16;
@@ -284,7 +288,7 @@ namespace Dom_Zdravlja
 			// checkBox17
 			// 
 			this.checkBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox17.Location = new System.Drawing.Point(535, 182);
+			this.checkBox17.Location = new System.Drawing.Point(538, 182);
 			this.checkBox17.Name = "checkBox17";
 			this.checkBox17.Size = new System.Drawing.Size(129, 37);
 			this.checkBox17.TabIndex = 17;
@@ -295,7 +299,7 @@ namespace Dom_Zdravlja
 			// checkBox18
 			// 
 			this.checkBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox18.Location = new System.Drawing.Point(658, 183);
+			this.checkBox18.Location = new System.Drawing.Point(668, 183);
 			this.checkBox18.Name = "checkBox18";
 			this.checkBox18.Size = new System.Drawing.Size(147, 37);
 			this.checkBox18.TabIndex = 18;
@@ -306,7 +310,7 @@ namespace Dom_Zdravlja
 			// checkBox11
 			// 
 			this.checkBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox11.Location = new System.Drawing.Point(537, 147);
+			this.checkBox11.Location = new System.Drawing.Point(538, 146);
 			this.checkBox11.Name = "checkBox11";
 			this.checkBox11.Size = new System.Drawing.Size(129, 37);
 			this.checkBox11.TabIndex = 11;
@@ -331,18 +335,18 @@ namespace Dom_Zdravlja
 			this.dataSql.AllowUserToDeleteRows = false;
 			this.dataSql.BackgroundColor = System.Drawing.SystemColors.Window;
 			this.dataSql.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dataSql.Location = new System.Drawing.Point(9, 284);
+			this.dataSql.Location = new System.Drawing.Point(12, 271);
 			this.dataSql.Name = "dataSql";
 			this.dataSql.ReadOnly = true;
 			this.dataSql.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
 			this.dataSql.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-			this.dataSql.Size = new System.Drawing.Size(368, 196);
+			this.dataSql.Size = new System.Drawing.Size(367, 141);
 			this.dataSql.TabIndex = 40;
 			// 
 			// button_Back
 			// 
 			this.button_Back.Image = ((System.Drawing.Image)(resources.GetObject("button_Back.Image")));
-			this.button_Back.Location = new System.Drawing.Point(34, 506);
+			this.button_Back.Location = new System.Drawing.Point(24, 549);
 			this.button_Back.Name = "button_Back";
 			this.button_Back.Size = new System.Drawing.Size(51, 43);
 			this.button_Back.TabIndex = 41;
@@ -355,18 +359,18 @@ namespace Dom_Zdravlja
 			this.dataSql2.AllowUserToDeleteRows = false;
 			this.dataSql2.BackgroundColor = System.Drawing.SystemColors.Window;
 			this.dataSql2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dataSql2.Location = new System.Drawing.Point(383, 283);
+			this.dataSql2.Location = new System.Drawing.Point(392, 271);
 			this.dataSql2.Name = "dataSql2";
 			this.dataSql2.ReadOnly = true;
 			this.dataSql2.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
 			this.dataSql2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-			this.dataSql2.Size = new System.Drawing.Size(425, 196);
+			this.dataSql2.Size = new System.Drawing.Size(425, 141);
 			this.dataSql2.TabIndex = 42;
 			// 
 			// label3
 			// 
 			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label3.Location = new System.Drawing.Point(105, 255);
+			this.label3.Location = new System.Drawing.Point(136, 239);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(103, 29);
 			this.label3.TabIndex = 43;
@@ -375,18 +379,38 @@ namespace Dom_Zdravlja
 			// label4
 			// 
 			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label4.Location = new System.Drawing.Point(526, 255);
+			this.label4.Location = new System.Drawing.Point(528, 239);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(109, 29);
 			this.label4.TabIndex = 44;
 			this.label4.Text = "Pregledao: ";
+			// 
+			// label5
+			// 
+			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label5.Location = new System.Drawing.Point(339, 415);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(71, 28);
+			this.label5.TabIndex = 46;
+			this.label5.Text = "Datum:";
+			// 
+			// label6
+			// 
+			this.label6.BackColor = System.Drawing.Color.White;
+			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label6.Location = new System.Drawing.Point(185, 443);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(423, 141);
+			this.label6.TabIndex = 47;
 			// 
 			// Simptomi
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.RoyalBlue;
-			this.ClientSize = new System.Drawing.Size(815, 581);
+			this.ClientSize = new System.Drawing.Size(828, 644);
+			this.Controls.Add(this.label6);
+			this.Controls.Add(this.label5);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.dataSql2);

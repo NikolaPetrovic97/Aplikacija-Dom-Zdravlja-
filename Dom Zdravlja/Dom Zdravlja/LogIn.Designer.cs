@@ -55,6 +55,11 @@ namespace Dom_Zdravlja
 			this.button_InfoCentar = new System.Windows.Forms.Button();
 			this.button_Odjava = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
+			this.button_Statistika = new System.Windows.Forms.Button();
+			this.button_DezurniDoktor = new System.Windows.Forms.Button();
+			this.button_ZakaziPregled = new System.Windows.Forms.Button();
+			this.label2 = new System.Windows.Forms.Label();
+			this.label4 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// label3
@@ -101,7 +106,7 @@ namespace Dom_Zdravlja
 			// 
 			// button_KontaktCentar
 			// 
-			this.button_KontaktCentar.Location = new System.Drawing.Point(6, 228);
+			this.button_KontaktCentar.Location = new System.Drawing.Point(10, 229);
 			this.button_KontaktCentar.Name = "button_KontaktCentar";
 			this.button_KontaktCentar.Size = new System.Drawing.Size(189, 47);
 			this.button_KontaktCentar.TabIndex = 12;
@@ -111,7 +116,7 @@ namespace Dom_Zdravlja
 			// 
 			// button_ONama
 			// 
-			this.button_ONama.Location = new System.Drawing.Point(234, 227);
+			this.button_ONama.Location = new System.Drawing.Point(234, 229);
 			this.button_ONama.Name = "button_ONama";
 			this.button_ONama.Size = new System.Drawing.Size(189, 47);
 			this.button_ONama.TabIndex = 13;
@@ -121,7 +126,7 @@ namespace Dom_Zdravlja
 			// 
 			// button_InfoCentar
 			// 
-			this.button_InfoCentar.Location = new System.Drawing.Point(452, 229);
+			this.button_InfoCentar.Location = new System.Drawing.Point(451, 229);
 			this.button_InfoCentar.Name = "button_InfoCentar";
 			this.button_InfoCentar.Size = new System.Drawing.Size(189, 47);
 			this.button_InfoCentar.TabIndex = 14;
@@ -133,7 +138,7 @@ namespace Dom_Zdravlja
 			// 
 			this.button_Odjava.Image = ((System.Drawing.Image)(resources.GetObject("button_Odjava.Image")));
 			this.button_Odjava.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.button_Odjava.Location = new System.Drawing.Point(474, 350);
+			this.button_Odjava.Location = new System.Drawing.Point(451, 414);
 			this.button_Odjava.Name = "button_Odjava";
 			this.button_Odjava.Size = new System.Drawing.Size(189, 47);
 			this.button_Odjava.TabIndex = 16;
@@ -150,12 +155,65 @@ namespace Dom_Zdravlja
 			this.label1.Text = "Izaberite neku od ponuđenih opcija: ";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
+			// button_Statistika
+			// 
+			this.button_Statistika.Location = new System.Drawing.Point(234, 330);
+			this.button_Statistika.Name = "button_Statistika";
+			this.button_Statistika.Size = new System.Drawing.Size(186, 47);
+			this.button_Statistika.TabIndex = 19;
+			this.button_Statistika.Text = "Statistika";
+			this.button_Statistika.UseVisualStyleBackColor = true;
+			this.button_Statistika.Click += new System.EventHandler(this.Statistika);
+			// 
+			// button_DezurniDoktor
+			// 
+			this.button_DezurniDoktor.Location = new System.Drawing.Point(10, 330);
+			this.button_DezurniDoktor.Name = "button_DezurniDoktor";
+			this.button_DezurniDoktor.Size = new System.Drawing.Size(189, 47);
+			this.button_DezurniDoktor.TabIndex = 18;
+			this.button_DezurniDoktor.Text = "Dežurni doktor";
+			this.button_DezurniDoktor.UseVisualStyleBackColor = true;
+			this.button_DezurniDoktor.Click += new System.EventHandler(this.DezurniDoktor);
+			// 
+			// button_ZakaziPregled
+			// 
+			this.button_ZakaziPregled.Location = new System.Drawing.Point(451, 330);
+			this.button_ZakaziPregled.Name = "button_ZakaziPregled";
+			this.button_ZakaziPregled.Size = new System.Drawing.Size(186, 47);
+			this.button_ZakaziPregled.TabIndex = 20;
+			this.button_ZakaziPregled.Text = "Zakaži pregled";
+			this.button_ZakaziPregled.UseVisualStyleBackColor = true;
+			this.button_ZakaziPregled.Click += new System.EventHandler(this.Button_ZakaziPregledClick);
+			// 
+			// label2
+			// 
+			this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
+			this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.label2.Location = new System.Drawing.Point(578, 0);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(101, 73);
+			this.label2.TabIndex = 40;
+			// 
+			// label4
+			// 
+			this.label4.Image = ((System.Drawing.Image)(resources.GetObject("label4.Image")));
+			this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.label4.Location = new System.Drawing.Point(0, 0);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(67, 73);
+			this.label4.TabIndex = 41;
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.RoyalBlue;
-			this.ClientSize = new System.Drawing.Size(679, 423);
+			this.ClientSize = new System.Drawing.Size(679, 473);
+			this.Controls.Add(this.label4);
+			this.Controls.Add(this.label2);
+			this.Controls.Add(this.button_ZakaziPregled);
+			this.Controls.Add(this.button_Statistika);
+			this.Controls.Add(this.button_DezurniDoktor);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.button_Odjava);
 			this.Controls.Add(this.button_InfoCentar);
@@ -176,5 +234,10 @@ namespace Dom_Zdravlja
 			this.ResumeLayout(false);
 
 		}
+		private System.Windows.Forms.Button button_Statistika;
+		private System.Windows.Forms.Button button_DezurniDoktor;
+		private System.Windows.Forms.Button button_ZakaziPregled;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label label4;
 	}
 }

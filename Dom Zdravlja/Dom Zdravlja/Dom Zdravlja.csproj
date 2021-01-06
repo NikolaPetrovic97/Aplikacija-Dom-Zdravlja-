@@ -53,9 +53,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DezurniDoktor.cs" />
+    <Compile Include="DezurniDoktor.Designer.cs">
+      <DependentUpon>DezurniDoktor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Doktori.cs" />
     <Compile Include="Doktori.Designer.cs">
       <DependentUpon>Doktori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrikaziPreglede.cs" />
+    <Compile Include="PrikaziPreglede.Designer.cs">
+      <DependentUpon>PrikaziPreglede.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistika.cs" />
+    <Compile Include="Statistika.Designer.cs">
+      <DependentUpon>Statistika.cs</DependentUpon>
     </Compile>
     <Compile Include="InfoCentar.cs" />
     <Compile Include="InfoCentar.Designer.cs">
@@ -91,6 +103,10 @@
     <Compile Include="RegistrujSe.Designer.cs">
       <DependentUpon>RegistrujSe.cs</DependentUpon>
     </Compile>
+    <Compile Include="ZakaziPregled.cs" />
+    <Compile Include="ZakaziPregled.Designer.cs">
+      <DependentUpon>ZakaziPregled.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -98,6 +114,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DezurniDoktor.resx">
+      <DependentUpon>DezurniDoktor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Doktori.resx">
       <DependentUpon>Doktori.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,11 +138,20 @@
     <EmbeddedResource Include="ONama.resx">
       <DependentUpon>ONama.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PrikaziPreglede.resx">
+      <DependentUpon>PrikaziPreglede.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RegistrujSe.resx">
       <DependentUpon>RegistrujSe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Simptomi.resx">
       <DependentUpon>Simptomi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistika.resx">
+      <DependentUpon>Statistika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZakaziPregled.resx">
+      <DependentUpon>ZakaziPregled.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

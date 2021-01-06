@@ -16,3 +16,89 @@ C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Do
 C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.KontaktCentar.resources
 C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.ONama.resources
 C:\Users\Petrovici\Documents\PJP\Projekat\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Simptomi.resources
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.exe.config
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.exe
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.pdb
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\bin\Debug\System.Data.SQLite.dll
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\bin\Debug\System.Data.SQLite.xml
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.csprojResolveAssemblyReference.cache
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Doktori.resources
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.InfoCentar.resources
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.IstorijaBolesti.resources
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.KontaktCentar.resources
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.MainForm.resources
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.LogIn.resources
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.ONama.resources
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.RegistrujSe.resources
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Simptomi.resources
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.csproj.GenerateResource.Cache
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.exe
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.pdb
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Statistika.resources
+C:\Users\Marko\Desktop\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.DezurniDoktor.resources
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.exe.config
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.exe
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.pdb
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\bin\Debug\System.Data.SQLite.dll
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\bin\Debug\System.Data.SQLite.xml
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.csprojResolveAssemblyReference.cache
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.DezurniDoktor.resources
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Doktori.resources
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.InfoCentar.resources
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.IstorijaBolesti.resources
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.KontaktCentar.resources
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.MainForm.resources
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.LogIn.resources
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.ONama.resources
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.RegistrujSe.resources
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Simptomi.resources
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Statistika.resources
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.csproj.GenerateResource.Cache
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.exe
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.pdb
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.ZakaziPregled.resources
+C:\Users\Petrovic\Desktop\Diplomski\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.PrikaziPreglede.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.exe.config
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.exe
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.pdb
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\bin\Debug\System.Data.SQLite.dll
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\bin\Debug\System.Data.SQLite.xml
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.csprojResolveAssemblyReference.cache
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.DezurniDoktor.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Doktori.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.InfoCentar.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.IstorijaBolesti.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.KontaktCentar.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.MainForm.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.LogIn.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.ONama.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.PrikaziPreglede.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.RegistrujSe.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Simptomi.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Statistika.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.ZakaziPregled.resources
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.csproj.GenerateResource.Cache
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.exe
+C:\Users\Petrovic\Desktop\New folder (3)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.pdb
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.exe.config
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.exe
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\bin\Debug\Dom Zdravlja.pdb
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\bin\Debug\System.Data.SQLite.dll
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\bin\Debug\System.Data.SQLite.xml
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.csprojResolveAssemblyReference.cache
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.DezurniDoktor.resources
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Doktori.resources
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.InfoCentar.resources
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.IstorijaBolesti.resources
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.KontaktCentar.resources
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.MainForm.resources
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.LogIn.resources
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.ONama.resources
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.PrikaziPreglede.resources
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.RegistrujSe.resources
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Simptomi.resources
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.Statistika.resources
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom_Zdravlja.ZakaziPregled.resources
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.csproj.GenerateResource.Cache
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.exe
+C:\Users\Petrovic\Desktop\New folder (4)\Dom Zdravlja\Dom Zdravlja\obj\Debug\Dom Zdravlja.pdb

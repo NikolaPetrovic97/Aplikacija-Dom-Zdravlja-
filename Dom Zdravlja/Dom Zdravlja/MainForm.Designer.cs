@@ -62,7 +62,7 @@ namespace Dom_Zdravlja
 			this.label_Dom_Zdravlja.Dock = System.Windows.Forms.DockStyle.Top;
 			this.label_Dom_Zdravlja.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label_Dom_Zdravlja.Image = ((System.Drawing.Image)(resources.GetObject("label_Dom_Zdravlja.Image")));
-			this.label_Dom_Zdravlja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.label_Dom_Zdravlja.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.label_Dom_Zdravlja.Location = new System.Drawing.Point(0, 0);
 			this.label_Dom_Zdravlja.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.label_Dom_Zdravlja.Name = "label_Dom_Zdravlja";
@@ -76,7 +76,7 @@ namespace Dom_Zdravlja
 			this.button_Registruj_se.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button_Registruj_se.Image = ((System.Drawing.Image)(resources.GetObject("button_Registruj_se.Image")));
 			this.button_Registruj_se.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.button_Registruj_se.Location = new System.Drawing.Point(474, 277);
+			this.button_Registruj_se.Location = new System.Drawing.Point(469, 274);
 			this.button_Registruj_se.Name = "button_Registruj_se";
 			this.button_Registruj_se.Size = new System.Drawing.Size(152, 63);
 			this.button_Registruj_se.TabIndex = 24;
@@ -107,7 +107,7 @@ namespace Dom_Zdravlja
 			this.txt_Lozinka.Location = new System.Drawing.Point(143, 213);
 			this.txt_Lozinka.Multiline = true;
 			this.txt_Lozinka.Name = "txt_Lozinka";
-			this.txt_Lozinka.PasswordChar = '#';
+			this.txt_Lozinka.PasswordChar = '*';
 			this.txt_Lozinka.Size = new System.Drawing.Size(191, 29);
 			this.txt_Lozinka.TabIndex = 22;
 			// 
@@ -124,7 +124,7 @@ namespace Dom_Zdravlja
 			// label_Lozinka
 			// 
 			this.label_Lozinka.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label_Lozinka.Location = new System.Drawing.Point(28, 212);
+			this.label_Lozinka.Location = new System.Drawing.Point(15, 213);
 			this.label_Lozinka.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.label_Lozinka.Name = "label_Lozinka";
 			this.label_Lozinka.Size = new System.Drawing.Size(88, 29);
